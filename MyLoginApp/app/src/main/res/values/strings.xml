@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MyLoginApp</string>
+    <string name="correo">Correo</string>
+    <string name="contrase_a">Contraseña</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="registrar">Registrar</string>
+    <string name="dato">Los datos son: %s %s</string>
+</resources>
