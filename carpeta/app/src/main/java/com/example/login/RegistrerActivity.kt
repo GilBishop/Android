@@ -41,7 +41,6 @@ class RegistrerActivity : AppCompatActivity() {
                 }else{
                     toast("Llena Todos los Datos!")
                 }
-
             }
 
             txtVLogin.setOnClickListener{

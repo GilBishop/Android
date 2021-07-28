@@ -22,9 +22,10 @@ class SegundoFragment : Fragment(R.layout.fragment_segundo) {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
         nombre = args.nombre
         edad =args.edad
+
+
 
         /*
         Recibe los datos sin  Safe Args
@@ -47,12 +48,12 @@ class SegundoFragment : Fragment(R.layout.fragment_segundo) {
         text.text = "$nombre $edad"
     }
 
-    companion object{
+    /*companion object{
         const val miNombre = "nombre"
         const val miEdad = "edad"
 
         fun newInstance(nombre: String, edad: Int) = SegundoFragment().apply {
             arguments = bundleOf(miNombre to nombre, miEdad to edad)
         }
-    }
+    }*/
 }
